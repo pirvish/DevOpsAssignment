@@ -4,7 +4,8 @@
   "description": "Dise interview assignment delivery",
   "main": "sum.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,9 @@
   },
   "homepage": "https://github.com/pirvish/DevOpsAssignment#readme",
   "devDependencies": {
+    "@commitlint/cli": "^20.2.0",
+    "@commitlint/config-conventional": "^20.2.0",
+    "husky": "^9.1.7",
     "jest": "^30.2.0"
   }
 }
